@@ -1,0 +1,41 @@
+from turtle import *
+def shape1():
+    for i in range(3):
+        t.forward(100)
+        t.left(90)
+
+#shapes: “arrow”, “turtle”, “circle”, “square”, “triangle”, “classic”.
+t=Turtle() # creating object of turtle class
+sc=Screen()
+# t.forward(100)
+# t.left(90)
+# t.forward(100)
+# t.left(90)
+# t.forward(100)
+# t.left(90)
+#t.pensize(15)
+#sc.bgcolor('yellow')
+sc.bgpic('micy.gif')
+sc.screensize(800,200)
+t.hideturtle()
+t.shape('turtle')
+t.speed(1)
+shape1()
+t.forward(100)
+t.penup()
+t.fd(100)
+t.pendown()
+# t.pencolor('green')
+# t.fillcolor('red')
+t.color('red','green')
+t.begin_fill()
+t.fd(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.end_fill()
+
+mainloop()
