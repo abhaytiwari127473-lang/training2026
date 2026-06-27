@@ -16,6 +16,17 @@ one_week = timedelta(days=60)
 next_week = today + one_week
 print(next_week)
 
+
+
+
+
+
+
+
+
+
+
+
 print(diff)
 # while True:
 #     x=datetime.now()
